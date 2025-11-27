@@ -15,21 +15,28 @@ Description: Create a new product with details like name, description, price, qu
 The collection contains 5 requests for a Product API:
 
 Create Product
+
  - POST http://localhost:8123/products.api/create
 
-Creates products with: description, purchased date, qty, and price
+Creates products with: description, purchased date, qty, and price.
+
 Get Product by ID
+
  - GET http://localhost:8123/products.api/1 
 
 Get All Products
+
  - GET http://localhost:8123/api/products/all
 
 Update Product
+
  - PUT http://localhost:8123/products.api/
+
  - can be updated by json
 
 
 Delete Product
+
  - DELETE http://localhost:8123/products.api/delete/{id}
 
  1. Create Product
@@ -51,31 +58,38 @@ http://localhost:8123/product.api/create
  2. Get All Products
     
 Method: GET
+
 Endpoint: /products.api/all
+
 Description: Retrieve a list of all products in the system
 
 ```http://localhost:8123/product.api/all ```
 
  3. Get Product by ID
+    
 Method: GET
+
 Endpoint: /products.api/:id
+
 Description: Retrieve details of a specific product by its ID
 
 
  4. Update Product
- 5. 
+
 Method: PUT
+
 Endpoint: /products.api/update/:id
+
 Description: Update an existing product's information we update produst Apple to another product
 
 ```
 http://localhost:8123/product.api/update/1
 
 {
-    "name":"oppo-new-model",
+    "name":"Apple",
   "description": "Updated Product",
   "purchased": "2024-01-20",
-  "qty": 15,
+  "qty": 1,
   "price": 10999.99
 }
 
@@ -95,7 +109,9 @@ http://localhost:8123/product.api/update/1
  5. Delete Product
     
 Method: DELETE
+
 Endpoint: /products.api/delete/:id
+
 Description: Remove a product from the system
 
 ```
