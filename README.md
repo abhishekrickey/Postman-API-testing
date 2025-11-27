@@ -73,6 +73,10 @@ Endpoint: /products.api/:id
 
 Description: Retrieve details of a specific product by its ID
 
+```
+http://localhost:8123/product.api/1
+```
+
 
  4. Update Product
 
