@@ -2,27 +2,27 @@
 Product API Collection
 A comprehensive Postman collection for managing products through a RESTful API. This collection includes all CRUD (Create, Read, Update, Delete) operations for product management.
 
-# Base URL
+ Base URL
 http://localhost:8080
 http://localhost:8080
 Endpoints
-# 1. Create Product
+ 1. Create Product
 Method: POST
 Endpoint: /api/products
 Description: Create a new product with details like name, description, price, quantity, and purchase date
-# 2. Get All Products
+ 2. Get All Products
 Method: GET
 Endpoint: /api/products
 Description: Retrieve a list of all products in the system
-# 3. Get Product by ID
+ 3. Get Product by ID
 Method: GET
 Endpoint: /api/products/:id
 Description: Retrieve details of a specific product by its ID
-# 4. Update Product
+ 4. Update Product
 Method: PUT
 Endpoint: /api/products/:id
 Description: Update an existing product's information
-# 5. Delete Product
+ 5. Delete Product
 Method: DELETE
 Endpoint: /api/products/:id
 Description: Remove a product from the system
